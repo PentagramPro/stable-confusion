@@ -78,12 +78,12 @@ data:
     train:
       target: ldm.data.local.LocalBase
       params:
-        size: 128
+        size: 512
         mode: "train"
     validation:
       target: ldm.data.local.LocalBase
       params:
-        size: 128
+        size: 512
         mode: "val"
         val_split: 64
 

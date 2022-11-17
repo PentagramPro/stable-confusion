@@ -109,7 +109,7 @@ class CaptionProcessor(object):
 class LocalBase(Dataset):
     def __init__(self,
                  data_root='./dataset',
-                 size=768,
+                 size=256,
                  interpolation="bicubic",
                  flip_p=0.5,
                  crop=True,

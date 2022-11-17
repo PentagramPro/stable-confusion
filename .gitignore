@@ -133,3 +133,4 @@ dmypy.json
 dataset/
 logs/
 *.ckpt
+outputs/

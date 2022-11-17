@@ -179,8 +179,8 @@ def main():
     parser.add_argument(
         "--ckpt",
         type=str,
-        default="models/ldm/stable-diffusion-v1/waifu.ckpt",
-        #default="models/ldm/stable-diffusion-v1/v1-5-pruned.ckpt",
+        #default="models/ldm/stable-diffusion-v1/waifu.ckpt",
+        default="models/ldm/stable-diffusion-v1/v1-5-pruned.ckpt",
         #default="models/ldm/stable-diffusion-v1/model.ckpt",
         help="path to checkpoint of model",
     )
